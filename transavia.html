@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transavia</title>
+</head>
+
+<body>
+    <h1>Transavia</h1>
+
+    <section>
+        <h2>Boek een vlucht</h2>
+
+        <form>
+            <label for="languageList">Vanaf waar wil je vliegen?</label>
+            <input type="text" id="txtAutoComplete" list="languageList" />
+            <!--your input textbox-->
+            <datalist id="languageList">
+                <option value="Amsterdam (Schiphol), Nederland<">Amsterdam (Schiphol), Nederland</option>
+                <option value="Rotterdam/Den Haag, Nederland">Rotterdam/Den Haag, Nederland</option>
+                <option value="Eindhoven, Nederland">Eindhoven, Nederland</option>
+            </datalist>
+            <div>
+                <label for="vertrek">Vanaf waar wil je vliegen?</label>
+                <input type="text" name="vertrek">
+            </div>
+            <div>
+                <label for="vertrek">Vanaf waar wil je vliegen?</label>
+                <select id="card" name="vertrek">
+                    <option value="Amsterdam (Schiphol), Nederland">Amsterdam (Schiphol), Nederland</option>
+                    <option value="Rotterdam/Den Haag, Nederland">Rotterdam/Den Haag, Nederland</option>
+                    <option value="Eindhoven, Nederland">Eindhoven, Nederland</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="bestemming">Waar wil je heen?</label>
+                <input type="text" name="bestemming">
+            </div>
+            <div>
+                <label for="bestemming">Waar wil je heen?</label>
+                <select id="card" name="bestemming">
+                    <option value="visa">Tokyo, Japan</option>
+                    <option value="mc">Ibiza, spanje</option>
+                    <option value="amex">Sicilië (Catania), Italië</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="datum-vertrek">Vanaf wanneer wil je vertrekken?</label>
+                <input type="date" name="datum-vertrek">
+            </div>
+
+            <div>
+                <label for="datum-vertrek">Vanaf wanneer wil je vertrekken?</label>
+                <span id="dob-hint" class="govuk-hint">
+
+                </span>
+                <label for="Dag">Dag</label>
+                <input type="text" name="Dag">
+                <label for="Dag">Maand</label>
+                <input type="text" name="Maand">
+                <label for="Dag">Jaar</label>
+                <input type="text" name="Jaar">
+            </div>
+
+            <div>
+                <label for="datum-vertrek">Wanneer kom je terug?</label>
+                <input type="date" name="datum-vertrek">
+            </div>
+
+            <div>
+                <label for="datum-vertrek">Wanneer kom je terug</label>
+                <span id="dob-hint" class="govuk-hint">
+
+                </span>
+                <label for="Dag">Dag</label>
+                <input type="text" name="Dag">
+                <label for="Dag">Maand</label>
+                <input type="text" name="Maand">
+                <label for="Dag">Jaar</label>
+                <input type="text" name="Jaar">
+            </div>
+
+            <button>Zie overzicht</button><button>Zoek</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
