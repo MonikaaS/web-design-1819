@@ -1094,7 +1094,7 @@ function myMatch(inputText) {
                     if (matches.length === 1) {
                         live.textContent = "1 resultaat";
                     } else {
-                        live.textContent = matches.length + " results";
+                        live.textContent = matches.length + " resultaten";
                     }
 
 

@@ -13,7 +13,9 @@ var audio4 = new Audio("1-5-10049.mp3");
 
 tab1.addEventListener('focus', (event) => {
     console.log('regen')
-    audio1.play();
+    setTimeout(function () {
+        audio1.play()
+    }, 1200)
 });
 
 tab1.addEventListener('blur', (event) => {
@@ -22,7 +24,9 @@ tab1.addEventListener('blur', (event) => {
 
 tab2.addEventListener('focus', (event) => {
     console.log('regen')
-    audio2.play();
+    setTimeout(function () {
+        audio2.play();
+    }, 1200)
 });
 
 tab2.addEventListener('blur', (event) => {
@@ -31,7 +35,9 @@ tab2.addEventListener('blur', (event) => {
 
 tab3.addEventListener('focus', (event) => {
     console.log('onweer')
-    audio3.play();
+    setTimeout(function () {
+        audio3.play();
+    }, 1200)
 });
 
 tab3.addEventListener('blur', (event) => {
@@ -40,7 +46,9 @@ tab3.addEventListener('blur', (event) => {
 
 tab4.addEventListener('focus', (event) => {
     console.log('regen')
-    audio1.play();
+    setTimeout(function () {
+        audio1.play()
+    }, 1200)
 });
 
 tab4.addEventListener('blur', (event) => {
@@ -49,7 +57,9 @@ tab4.addEventListener('blur', (event) => {
 
 tab5.addEventListener('focus', (event) => {
     console.log('zonning')
-    audio4.play();
+    setTimeout(function () {
+        audio4.play()
+    }, 1200)
 });
 
 tab5.addEventListener('blur', (event) => {

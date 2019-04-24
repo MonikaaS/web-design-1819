@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buienradar</title>
+</head>
+
+<body>
+    <h1>Buienradar</h1>
+
+    <section>
+        <form>
+            <label for="input2">Vul een stad in:</label>
+            <input id="input2" aria-autocomplete="both" type="text" id="txtAutoComplete" />
+            <!--your input textbox-->
+            <!-- <datalist id="languageList">
+                <option value="Tokyo"></option>
+                <option value="Amsterdam"></option>
+                <option value="Rotterdam"></option>
+                <option value="Eindhoven"></option>
+            </datalist> -->
+        </form>
+    </section>
+
+    <section>
+        <div>
+            <h2>Huidige weersvoorspelling in Amsterdam</h2>
+            <p id="tab1" tabindex="1">10:00: Regen, 15 graden</p>
+            <p id="tab2" tabindex="1">11:00: Regen, 17 graden</p>
+            <p id="tab3" tabindex="1">12:00: onweer, 18 graden</p>
+            <p id="tab4" tabindex="1">13:00: regen, 23 graden</p>
+            <p id="tab5" tabindex="1">14:00: zonnig, 23 graden</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="autocomplete.js"></script>
+    <script>
+        visionaustralia.makeAutocompleteMulti("input2", myMatch);
+    </script>
+
+</body>
+
+</html>
