@@ -138,6 +138,7 @@ insights:
 - Geluiden die het weer laten horen
   
 ## wat ik nog graag had willen toevoegen/testen
+- Pas het weer tonen als het opgezocht is & de user er automatisch naar toe sturen
 - mobiele versie
 - weer API er aan koppelen
 - meer locaties
